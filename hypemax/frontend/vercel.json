@@ -1,8 +1,6 @@
 
 {
   "version": 2,
-  "buildCommand": null,
-  "outputDirectory": "frontend",
   "rewrites": [
     {
       "source": "/api/:path*",
@@ -46,6 +44,10 @@
     },
     {
       "source": "/policies/:path*",
+      "destination": "/policies.html"
+    },
+    {
+      "source": "/policies",
       "destination": "/policies.html"
     },
     {
