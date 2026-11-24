@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Secrets: never commit real environment files or credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+client_secret*.json
+service-account*.json
+
+# Logs, dumps and local artefacts
+*.log
+npm-debug.log*
+*.sql.gz
+*.dump
+backups/
+uploads/
+tmp/
+*.zip
+.DS_Store
+Thumbs.db
